@@ -168,7 +168,6 @@ a:hover {
 }
 
 .d-bloc .panel button:hover {
-
     color: rgba(0, 0, 0, .7);
 }
 
@@ -1040,4 +1039,4 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-
+}
