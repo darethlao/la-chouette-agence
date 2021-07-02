@@ -9,9 +9,6 @@
 	<!-- comptaibilité IE Edge -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<!-- script exécuté dès possible -->
-	<script async src=""></script>
-
 	<!-- meta robots -->
 	<code><meta name="robots" content="index, follow"></code>
 
@@ -39,28 +36,14 @@
 	<meta property="og:image" content="https://darethlao.github.io/img/logo.png" />
 	
 	<!-- liens vers des ressources externes -->
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-	
+	<link rel="stylesheet" type="text/css" href="style.min.css">
+
 	<!-- script JS -->
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery-2.1.0.js"  defer></script>
+	<script src="./js/bootstrap.js"  defer></script>
+	<script src="./js/blocs.js" defer></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
-	
-	<!-- Google analytics ID -->
-  	<script async src="https://www.googletagmanager.com/gtag/js?id=G-0NSSKDW62K"></script>
-  	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag() {
-		  dataLayer.push(arguments);
-	  }
-	  gtag('js', new Date());
-	  gtag('config', 'G-0NSSKDW62K');
-  	</script>
+	<script src="./js/gmaps.js"  defer></script>
 
 </head>
 
@@ -76,7 +59,7 @@
 			<div class="navbar-header">
 				<!-- supprimer div keywords -->
 				<!-- changer le texte de alt-->
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="logomark + logotype " height="40" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="logomark + logotype " height="50" /></a>
 				<!-- supprimer div keywords -->
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span>
@@ -89,12 +72,12 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Accueil</a>
+						<a href="index.html"><strong>Accueil</strong></a>
 					</li>
 					<!-- supprimer balise li inutile -->
 					<li>
 						<!-- modifier page2.html en contact.html -->
-						<a href="contact.html">Contact</a>
+						<a href="contact.html"><strong>Contact</strong></a>
 					</li>
 				</ul>
 			</div>
@@ -176,12 +159,12 @@
 				<!-- supprimer l'image "citation.png" pour la remplacer par une citation avec blockquote et cite -->
 				<figure>
 					<blockquote>
-						<p>
+						<p><strong>
 							"La chouette agence est une excellente agence web ! Les
 							<br />Web Designers ont réussi à capturer l'essence de notre
 							<br />entreprise et à l'intégrer à notre site. Cela nous a aidés à
 							<br />doubler nos ventes en ligne à Lyon."
-						</p>
+						</strong></p>
 					</blockquote>
 					<figcaption>Maxime Guilbard, <cite>PDG de À vos fourchette</cite></figcaption>
 				</figure>
