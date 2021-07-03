@@ -533,6 +533,21 @@ button {
     transition: all .3s ease-in-out;
 }
 
+@media(max-width:525px) {
+    #bloc-8 p {
+        font-size: 15px;
+    }
+
+    .social {
+        width: 300px;
+    }
+
+    .scrollToTop {
+        right: 5px;
+        bottom: 5px;
+    }
+}
+
 .scrollToTop span {
     margin-top: 6px;
 }
