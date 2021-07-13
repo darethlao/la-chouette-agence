@@ -11811,7 +11811,7 @@ th.visible-print {
 body {
   margin: 0;
   padding: 0;
-  background: yellow;
+  background: #FFF;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12891,75 +12891,3 @@ p,
 }
 
 /*# sourceMappingURL=style.css.map */
-  .bloc-xxl,
-  .bloc-xl,
-  .bloc-lg {
-    padding: 40px 0;
-  }
-  .bloc-sm,
-  .bloc-md {
-      padding-left: 0;
-      padding-right: 0;
-  }
-
-  .bloc-tile-2 .container,
-  .bloc-tile-3 .container,
-  .bloc-tile-4 .container,
-  .bloc-fill-screen .fill-bloc-top-edge,
-  .bloc-fill-screen .fill-bloc-bottom-edge {
-      padding-left: 0;
-      padding-right: 0;
-  }
-
-  .a-block {
-      padding: 0 10px;
-  }
-
-  .btn-dwn {
-      display: none;
-  }
-
-  .voffset {
-      margin-top: 5px;
-  }
-
-  .voffset-md {
-      margin-top: 20px;
-  }
-
-  .voffset-lg {
-      margin-top: 30px;
-  }
-
-  form {
-      padding: 5px;
-  }
-
-  .close-lightbox {
-      display: inline-block;
-  }
-
-  .blocsapp-device-iphone5 {
-      background-size: 216px 425px;
-      padding-top: 60px;
-      width: 216px;
-      height: 425px;
-  }
-  
-  .blocsapp-device-iphone5 img {
-      width: 180px;
-      height: 320px;
-  }
-
-@media (max-width: 400px) {
-  .bloc {
-      padding-left: 0;
-      padding-right: 0;
-  }
-}
-
-@media (max-width: 767px) {
-  .bloc-mob-center-text {
-      text-align: center;
-  }
-}
