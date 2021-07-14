@@ -16,6 +16,10 @@ a, button {
     outline: none!important;
 }
 
+ul li a:hover{
+    opacity: 0.5;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -299,11 +303,15 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-/*    font-size: 25px;
+    font-size: 25px;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
-*/
+
+}
+
+.navbar-brand:hover{
+    opacity: 0.5
 }
 
 .navbar-brand img {
@@ -916,6 +924,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+
     h1,
     h2,
     h3,
@@ -1015,6 +1024,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
@@ -1073,6 +1083,11 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    #bloc-4-portfolio img {
+        margin: auto;
+
     }
 }
 
