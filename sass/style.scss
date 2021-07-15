@@ -730,8 +730,10 @@ figcaption{
 }
 
 .social {
-    max-width: 400px;
+    display: flex;
+    justify-content: center;
     margin: auto;
+    max-width: 400px;
 }
 
 h2 {
@@ -743,7 +745,8 @@ h2 {
 
 h3 {
     font-size: 15px;
-    text-transform: uppercase;
+    
+    transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
