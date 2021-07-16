@@ -1003,19 +1003,16 @@ h4 {
         box-shadow: none;
     }
 
-    /* ajouter target pour supprimer le display: none de collapse
-    #nav-toggle:target + .collapse {
-        display: block;
-    } */
-
-    .navbar-1 {
+    /* ajouter target pour supprimer le display: none de collapse */
+    /* #nav-toggle:target + */
+    .navbar-collapse {
         display: block;
     }
 
-    /* test target 
+    /* test target
     #nav-toggle {
         background: red;
-    } */
+    }*/
 
     .navbar-brand img {
         max-height: 40px;
