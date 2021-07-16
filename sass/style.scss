@@ -16,10 +16,6 @@ a, button {
     outline: none!important;
 }
 
-ul li a:hover{
-    opacity: 0.5;
-}
-
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -543,7 +539,7 @@ button {
 
 @media(max-width:525px) {
     #bloc-8 p {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .social {
@@ -737,7 +733,7 @@ figcaption{
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 15px;
     color: black!important;
     font-weight: 600;
     line-height: 3rem;
@@ -845,19 +841,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("../img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("../img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("../img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("../img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1000,12 +996,15 @@ h4 {
         left: -1px;
         right: -1px;
     }
-
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
+    }
+
+    .collapse {
+        display: block;
     }
 
     .navbar-brand img {
