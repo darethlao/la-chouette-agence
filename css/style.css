@@ -12802,16 +12802,18 @@ p,
     box-shadow: none;
   }
 
-  /* ajouter target pour supprimer le display: none de collapse */
+  /* ajouter target pour supprimer le display: none de collapse
   #nav-toggle:target + .collapse {
+      display: block;
+  } */
+  .navbar-1 {
     display: block;
   }
 
-  /* test target */
+  /* test target 
   #nav-toggle {
-    background: red;
-  }
-
+      background: red;
+  } */
   .navbar-brand img {
     max-height: 40px;
     width: auto;
