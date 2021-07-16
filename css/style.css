@@ -12802,7 +12802,8 @@ p,
     box-shadow: none;
   }
 
-  .collapse {
+  /* ajouter target pour supprimer le display: none de collapse */
+  #nav-toggle:target + .collapse {
     display: block;
   }
 
